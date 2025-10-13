@@ -857,7 +857,7 @@
                       </Assign.To>
                       <Assign.Value>
                         <InArgument x:TypeArguments="x:String">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_156">outCsv + $"926.{invDate},{total},{invNo.Trim()},\"{bol}\"\n"</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_157">outCsv + $"926,{invDate},{total},{invNo.Trim()},\"{bol}\"\n"</CSharpValue>
                         </InArgument>
                       </Assign.Value>
                     </Assign>
