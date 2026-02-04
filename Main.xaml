@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.Invoices.Bundle;assembly=ExtendedExtractionRe.LxlCf1KJ8qF1ULI7A3I4Had1" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamf="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Filters;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamm="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Models;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umm="clr-namespace:UiPath.MicrosoftOffice365.Models;assembly=UiPath.MicrosoftOffice365" xmlns:ummm="clr-namespace:UiPath.MicrosoftOffice365.Mail.Models;assembly=UiPath.MicrosoftOffice365" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:sc1="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:snm="clr-namespace:System.Net.Mail;assembly=System.Net.Mail" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisaseib="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.Invoices.Bundle;assembly=ExtendedExtractionRe.LxlCf1KJ8qF1ULI7A3I4Had1" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamf="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Filters;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamm="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Models;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umm="clr-namespace:UiPath.MicrosoftOffice365.Models;assembly=UiPath.MicrosoftOffice365" xmlns:ummm="clr-namespace:UiPath.MicrosoftOffice365.Mail.Models;assembly=UiPath.MicrosoftOffice365" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -285,7 +285,7 @@
       <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Pull an email from accounting from ldp@lincolnenergysolutions.com mailbox in 365 through integration service with xlsx attachment and load attachment into a datatable for processing&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1252,6775" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Pull an email from accounting from ldp@lincolnenergysolutions.com mailbox in 365 through integration service with xlsx attachment and load attachment into a datatable for processing&#xA;" DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,9093" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(snm:MailMessage)" Name="mailMessages" />
       <Variable x:TypeArguments="scg:IEnumerable(x:String)" Name="savedAttachments" />
@@ -314,7 +314,7 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <umam:GetNewestEmail ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID0}" FreeTextFilter="{x:Null}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID1}" ManualEntryFolder="{x:Null}" QueryFilter="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolder="Inbox" BrowserFolderId="AAMkADljNGMwYmFhLTZmYWQtNDlmMC04YTNmLWNkNmUxM2VlOTRmYQAuAAAAAACflz30HmsTT5rJx9sm-CW1AQAGVHH2yFBcSozMGWuhPySFAAAAAAEMAAA=" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Get Newest Email" FilterSelectionMode="ConditionBuilder" sap:VirtualizedContainerService.HintSize="642,281" sap2010:WorkflowViewState.IdRef="GetNewestEmail_2" Importance="Any" MarkAsRead="False" SelectionMode="Browse" UnreadOnly="False" UseConnectionService="True" UseSharedMailbox="False" WithAttachmentsOnly="True">
+    <umam:GetNewestEmail ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID0}" FreeTextFilter="{x:Null}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID1}" ManualEntryFolder="{x:Null}" QueryFilter="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolder="Inbox" BrowserFolderId="AAMkADljNGMwYmFhLTZmYWQtNDlmMC04YTNmLWNkNmUxM2VlOTRmYQAuAAAAAACflz30HmsTT5rJx9sm-CW1AQAGVHH2yFBcSozMGWuhPySFAAAAAAEMAAA=" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Get Newest Email" FilterSelectionMode="ConditionBuilder" sap:VirtualizedContainerService.HintSize="852,285" sap2010:WorkflowViewState.IdRef="GetNewestEmail_2" Importance="Any" MarkAsRead="False" SelectionMode="Browse" UnreadOnly="False" UseConnectionService="True" UseSharedMailbox="False" WithAttachmentsOnly="True">
       <umam:GetNewestEmail.Filter>
         <umamf:MailFilterCollection LogicalOperator="And">
           <umamf:MailFilterCollection.Filters>
@@ -357,14 +357,14 @@
         </OutArgument>
       </umam:GetNewestEmail.Result>
     </umam:GetNewestEmail>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="642,173" sap2010:WorkflowViewState.IdRef="LogMessage_6">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="LogMessage_6">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_35">"Found email " + emailMessage.Subject + " " + emailMessage.LastModifiedDateTime</CSharpValue>
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <umam:DownloadEmailAttachments ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Filter="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Download Email Attachments" ExcludeInlineAttachments="False" FilterByFileNames="*.xlsx" sap:VirtualizedContainerService.HintSize="642,235" sap2010:WorkflowViewState.IdRef="DownloadEmailAttachments_2" SearchMode="UseSimple" UseConnectionService="True">
+    <umam:DownloadEmailAttachments ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Filter="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Download Email Attachments" ExcludeInlineAttachments="False" FilterByFileNames="*.xlsx" sap:VirtualizedContainerService.HintSize="852,237" sap2010:WorkflowViewState.IdRef="DownloadEmailAttachments_2" SearchMode="UseSimple" UseConnectionService="True">
       <umam:DownloadEmailAttachments.Email>
         <InArgument x:TypeArguments="umm:Office365Message">
           <CSharpValue x:TypeArguments="umm:Office365Message" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">emailMessage</CSharpValue>
@@ -376,7 +376,7 @@
         </OutArgument>
       </umam:DownloadEmailAttachments.NewResult>
     </umam:DownloadEmailAttachments>
-    <Assign sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_18">attachmentPath</CSharpReference>
@@ -388,7 +388,7 @@
         </InArgument>
       </Assign.Value>
     </Assign>
-    <ui:GetFileInfoX DisplayName="Get File Info" sap:VirtualizedContainerService.HintSize="642,165" sap2010:WorkflowViewState.IdRef="GetFileInfoX_1">
+    <ui:GetFileInfoX DisplayName="Get File Info" sap:VirtualizedContainerService.HintSize="852,167" sap2010:WorkflowViewState.IdRef="GetFileInfoX_1">
       <ui:GetFileInfoX.FilePath>
         <InArgument x:TypeArguments="x:String">
           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">attachmentPath</CSharpValue>
@@ -400,14 +400,14 @@
         </OutArgument>
       </ui:GetFileInfoX.Output>
     </ui:GetFileInfoX>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="642,173" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="LogMessage_2">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_36">"Processing file " + fileInfo.FullName</CSharpValue>
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <Assign sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="Assign_14">
+    <Assign sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="Assign_14">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">fileName</CSharpReference>
@@ -419,7 +419,7 @@
         </InArgument>
       </Assign.Value>
     </Assign>
-    <ui:PathExists Exists="{x:Null}" DisplayName="Path Exists" sap:VirtualizedContainerService.HintSize="642,147" sap2010:WorkflowViewState.IdRef="PathExists_1" PathType="File">
+    <ui:PathExists Exists="{x:Null}" DisplayName="Path Exists" sap:VirtualizedContainerService.HintSize="852,149" sap2010:WorkflowViewState.IdRef="PathExists_1" PathType="File">
       <ui:PathExists.Path>
         <InArgument x:TypeArguments="x:String">
           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84">attachmentPath</CSharpValue>
@@ -431,7 +431,7 @@
         </OutArgument>
       </ui:PathExists.Resource>
     </ui:PathExists>
-    <Assign sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="Assign_35">
+    <Assign sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="Assign_35">
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">
           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_48">outCsv</CSharpReference>
@@ -443,34 +443,37 @@
         </InArgument>
       </Assign.Value>
     </Assign>
-    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="642,4411" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="852,6519" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
       <ueab:ExcelProcessScopeX.Body>
         <ActivityAction x:TypeArguments="ui:IExcelProcess">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="608,4292" sap2010:WorkflowViewState.IdRef="Sequence_21">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="818,6400" sap2010:WorkflowViewState.IdRef="Sequence_21">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="574,4232" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" TemplatePath="LIC Invoiced 100925.xlsx" UseTemplate="True">
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="784,6336" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" TemplatePath="LIC Invoiced 100925.xlsx" UseTemplate="True">
               <ueab:ExcelApplicationCard.Body>
                 <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,3917" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="750,6013" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="scg:List(x:String)" Name="listColumnNames" />
+                    </Sequence.Variables>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="506,201" sap2010:WorkflowViewState.IdRef="ReadRangeX_1">
+                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="716,207" sap2010:WorkflowViewState.IdRef="ReadRangeX_1">
                       <ueab:ReadRangeX.Range>
                         <InArgument x:TypeArguments="ue:IReadRangeRef">
-                          <CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_116">Excel.Sheet["Sheet1"]</CSharpValue>
+                          <CSharpValue x:TypeArguments="ue:IReadRangeRef" sap2010:WorkflowViewState.IdRef="CSharpValue`1_160">Excel.Sheet["PTL Sales Report"]</CSharpValue>
                         </InArgument>
                       </ueab:ReadRangeX.Range>
                       <ueab:ReadRangeX.SaveTo>
@@ -479,7 +482,12 @@
                         </OutArgument>
                       </ueab:ReadRangeX.SaveTo>
                     </ueab:ReadRangeX>
-                    <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="Invoice #" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="506,112" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Ascending" SortOrder="Ascending">
+                    <ui:SortDataTable ColumnName="{x:Null}" DataColumn="{x:Null}" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="716,117" sap2010:WorkflowViewState.IdRef="SortDataTable_1" Order="Ascending" SortOrder="Ascending">
+                      <ui:SortDataTable.ColumnIndex>
+                        <InArgument x:TypeArguments="s:Nullable(x:Int32)">
+                          <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="2" />
+                        </InArgument>
+                      </ui:SortDataTable.ColumnIndex>
                       <ui:SortDataTable.DataTable>
                         <InArgument x:TypeArguments="sd:DataTable">
                           <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_117">dataTable</CSharpValue>
@@ -491,14 +499,70 @@
                         </OutArgument>
                       </ui:SortDataTable.OutputDataTable>
                     </ui:SortDataTable>
-                    <Sequence DisplayName="Init Variables" sap:VirtualizedContainerService.HintSize="506,539" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                    <ui:ForEach x:TypeArguments="sd:DataColumn" CurrentIndex="{x:Null}" DisplayName="For Each currentDataColumn" sap:VirtualizedContainerService.HintSize="716,661" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+                      <ui:ForEach.Body>
+                        <ActivityAction x:TypeArguments="sd:DataColumn">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="sd:DataColumn" Name="currentDataColumn" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,526" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <If sap:VirtualizedContainerService.HintSize="452,462" sap2010:WorkflowViewState.IdRef="If_2">
+                              <If.Condition>
+                                <InArgument x:TypeArguments="x:Boolean">
+                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_167">currentDataColumn.ColumnName == "Invoice #" || currentDataColumn.ColumnName == "OrderNum" || currentDataColumn.ColumnName == "Order Num"</CSharpValue>
+                                </InArgument>
+                              </If.Condition>
+                              <If.Then>
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Assign sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Assign_73">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="x:String">
+                                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_84">currentDataColumn.ColumnName</CSharpReference>
+                                      </OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="x:String">Invoice #</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                </Sequence>
+                              </If.Then>
+                              <If.Else>
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </If.Else>
+                            </If>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:ForEach.Body>
+                      <ui:ForEach.Values>
+                        <InArgument x:TypeArguments="sc:IEnumerable">
+                          <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_164">dataTable.Columns</CSharpValue>
+                        </InArgument>
+                      </ui:ForEach.Values>
+                    </ui:ForEach>
+                    <Sequence DisplayName="Init Variables" sap:VirtualizedContainerService.HintSize="716,807" sap2010:WorkflowViewState.IdRef="Sequence_27">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_37">
+                      <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_37">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">
                             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_56">invDate</CSharpReference>
@@ -510,7 +574,7 @@
                           </InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_38">
+                      <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_38">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">
                             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_57">invNo</CSharpReference>
@@ -522,7 +586,7 @@
                           </InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_39">
+                      <Assign sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_39">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:String">
                             <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_58">bol</CSharpReference>
@@ -534,7 +598,7 @@
                           </InArgument>
                         </Assign.Value>
                       </Assign>
-                      <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_40">
+                      <Assign sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="Assign_40">
                         <Assign.To>
                           <OutArgument x:TypeArguments="x:Decimal">
                             <CSharpReference x:TypeArguments="x:Decimal" sap2010:WorkflowViewState.IdRef="CSharpReference`1_59">total</CSharpReference>
@@ -545,32 +609,32 @@
                         </Assign.Value>
                       </Assign>
                     </Sequence>
-                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="506,2900" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="716,3987" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                       <ui:ForEachRow.Body>
                         <ActivityAction x:TypeArguments="sd:DataRow">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2720" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="714,3801" sap2010:WorkflowViewState.IdRef="Sequence_26">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,2660" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="680,3737" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                               <ui:IfElseIfV2.Condition>
                                 <InArgument x:TypeArguments="x:Boolean">
-                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_119">CurrentRow["Invoice #"].ToString() != invNo &amp;&amp; !string.IsNullOrWhiteSpace(invNo)</CSharpValue>
+                                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_168">CurrentRow[1].ToString() != invNo &amp;&amp; !string.IsNullOrWhiteSpace(invNo)</CSharpValue>
                                 </InArgument>
                               </ui:IfElseIfV2.Condition>
                               <ui:IfElseIfV2.Else>
-                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,224" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="678,234" sap2010:WorkflowViewState.IdRef="Sequence_31">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_10">
+                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="644,170" sap2010:WorkflowViewState.IdRef="LogMessage_10">
                                     <ui:LogMessage.Message>
                                       <InArgument x:TypeArguments="x:Object">
                                         <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_137">"Empty row, skipping"</CSharpValue>
@@ -580,15 +644,15 @@
                                 </Sequence>
                               </ui:IfElseIfV2.Else>
                               <ui:IfElseIfV2.ElseIfs>
-                                <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                                <sc1:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
                                   <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
                                     <ui:IfElseIfBlock.Condition>
                                       <InArgument x:TypeArguments="x:Boolean">
-                                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_132">string.IsNullOrWhiteSpace(invNo) &amp;&amp; !string.IsNullOrWhiteSpace(CurrentRow["Invoice Date"].ToString())</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_174">string.IsNullOrWhiteSpace(invNo) &amp;&amp; !string.IsNullOrWhiteSpace(CurrentRow[1].ToString())</CSharpValue>
                                       </InArgument>
                                     </ui:IfElseIfBlock.Condition>
                                     <ui:IfElseIfBlock.Then>
-                                      <Sequence sap2010:Annotation.AnnotationText="On initial pass, populate from empty" DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,766" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                      <Sequence sap2010:Annotation.AnnotationText="On initial pass, populate from empty" DisplayName="Body" sap:VirtualizedContainerService.HintSize="678,1160" sap2010:WorkflowViewState.IdRef="Sequence_32">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Name="totalStr" />
                                         </Sequence.Variables>
@@ -598,7 +662,7 @@
                                             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_54">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_54">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_64">invNo</CSharpReference>
@@ -610,7 +674,7 @@
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_60">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_60">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_72">totalStr</CSharpReference>
@@ -618,11 +682,11 @@
                                           </Assign.To>
                                           <Assign.Value>
                                             <InArgument x:TypeArguments="x:String">
-                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_142">CurrentRow["Amount"].ToString()</CSharpValue>
+                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_175">CurrentRow[8].ToString()</CSharpValue>
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_61">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_61">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_73">totalStr</CSharpReference>
@@ -634,7 +698,7 @@
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_55">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_55">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:Decimal">
                                               <CSharpReference x:TypeArguments="x:Decimal" sap2010:WorkflowViewState.IdRef="CSharpReference`1_65">total</CSharpReference>
@@ -646,7 +710,7 @@
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_56">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_56">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_66">bol</CSharpReference>
@@ -654,11 +718,11 @@
                                           </Assign.To>
                                           <Assign.Value>
                                             <InArgument x:TypeArguments="x:String">
-                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_127">CurrentRow["BOL #"].ToString()</CSharpValue>
+                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_176">CurrentRow[2].ToString()</CSharpValue>
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_57">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,170" sap2010:WorkflowViewState.IdRef="Assign_57">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_67">invDate</CSharpReference>
@@ -666,7 +730,7 @@
                                           </Assign.To>
                                           <Assign.Value>
                                             <InArgument x:TypeArguments="x:String">
-                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_128">CurrentRow["Invoice Date"].ToString()</CSharpValue>
+                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_177">CurrentRow[0].ToString()</CSharpValue>
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
@@ -676,11 +740,11 @@
                                   <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
                                     <ui:IfElseIfBlock.Condition>
                                       <InArgument x:TypeArguments="x:Boolean">
-                                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_138">CurrentRow["Invoice #"].ToString() == invNo &amp;&amp; !string.IsNullOrWhiteSpace(CurrentRow["Invoice #"].ToString())</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_169">CurrentRow[1].ToString() == invNo &amp;&amp; !string.IsNullOrWhiteSpace(CurrentRow[1].ToString())</CSharpValue>
                                       </InArgument>
                                     </ui:IfElseIfBlock.Condition>
                                     <ui:IfElseIfBlock.Then>
-                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,566" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="678,771" sap2010:WorkflowViewState.IdRef="Sequence_34">
                                         <Sequence.Variables>
                                           <Variable x:TypeArguments="x:String" Name="totalStr" />
                                         </Sequence.Variables>
@@ -689,7 +753,7 @@
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_65">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_65">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_77">totalStr</CSharpReference>
@@ -697,11 +761,11 @@
                                           </Assign.To>
                                           <Assign.Value>
                                             <InArgument x:TypeArguments="x:String">
-                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_149">CurrentRow["Amount"].ToString()</CSharpValue>
+                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_178">CurrentRow[8].ToString()</CSharpValue>
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_67">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_67">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">
                                               <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_78">totalStr</CSharpReference>
@@ -713,7 +777,7 @@
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_66">
+                                        <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_66">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:Decimal">
                                               <CSharpReference x:TypeArguments="x:Decimal" sap2010:WorkflowViewState.IdRef="CSharpReference`1_79">total</CSharpReference>
@@ -725,7 +789,7 @@
                                             </InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,164" sap2010:WorkflowViewState.IdRef="LogMessage_11">
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="644,170" sap2010:WorkflowViewState.IdRef="LogMessage_11">
                                           <ui:LogMessage.Message>
                                             <InArgument x:TypeArguments="x:Object">
                                               <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_152">total</CSharpValue>
@@ -735,10 +799,10 @@
                                       </Sequence>
                                     </ui:IfElseIfBlock.Then>
                                   </ui:IfElseIfBlock>
-                                </sc:BindingList>
+                                </sc1:BindingList>
                               </ui:IfElseIfV2.ElseIfs>
                               <ui:IfElseIfV2.Then>
-                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,849" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="678,1308" sap2010:WorkflowViewState.IdRef="Sequence_30">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="totalStr" />
                                   </Sequence.Variables>
@@ -747,7 +811,7 @@
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_69">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_69">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_80">outCsv</CSharpReference>
@@ -759,7 +823,7 @@
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_48">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_48">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_60">invNo</CSharpReference>
@@ -767,11 +831,11 @@
                                     </Assign.To>
                                     <Assign.Value>
                                       <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_120">CurrentRow["Invoice #"].ToString()</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_170">CurrentRow[1].ToString()</CSharpValue>
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_62">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_62">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_74">totalStr</CSharpReference>
@@ -779,11 +843,11 @@
                                     </Assign.To>
                                     <Assign.Value>
                                       <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_145">CurrentRow["Amount"].ToString()</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_171">CurrentRow[8].ToString()</CSharpValue>
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_63">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_63">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_75">totalStr</CSharpReference>
@@ -795,7 +859,7 @@
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_64">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_64">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:Decimal">
                                         <CSharpReference x:TypeArguments="x:Decimal" sap2010:WorkflowViewState.IdRef="CSharpReference`1_76">total</CSharpReference>
@@ -807,7 +871,7 @@
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_50">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,179" sap2010:WorkflowViewState.IdRef="Assign_50">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_62">bol</CSharpReference>
@@ -815,11 +879,11 @@
                                     </Assign.To>
                                     <Assign.Value>
                                       <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_122">CurrentRow["BOL #"].ToString()</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_172">CurrentRow[2].ToString()</CSharpValue>
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_51">
+                                  <Assign sap:VirtualizedContainerService.HintSize="644,170" sap2010:WorkflowViewState.IdRef="Assign_51">
                                     <Assign.To>
                                       <OutArgument x:TypeArguments="x:String">
                                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_63">invDate</CSharpReference>
@@ -827,7 +891,7 @@
                                     </Assign.To>
                                     <Assign.Value>
                                       <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_123">CurrentRow["Invoice Date"].ToString()</CSharpValue>
+                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_173">CurrentRow[0].ToString()</CSharpValue>
                                       </InArgument>
                                     </Assign.Value>
                                   </Assign>
@@ -849,7 +913,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:ForEachRow>
-                    <Assign DisplayName="Assign - Final row" sap:VirtualizedContainerService.HintSize="506,105" sap2010:WorkflowViewState.IdRef="Assign_70">
+                    <Assign DisplayName="Assign - Final row" sap:VirtualizedContainerService.HintSize="716,170" sap2010:WorkflowViewState.IdRef="Assign_70">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">
                           <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_81">outCsv</CSharpReference>
@@ -874,28 +938,28 @@
         </ActivityAction>
       </ueab:ExcelProcessScopeX.Body>
     </ueab:ExcelProcessScopeX>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="642,173" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="LogMessage_1">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38">"Writing out CSV file"</CSharpValue>
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="\\thor\enterprisedata\imports\daily\penn_fiimp.csv" sap:VirtualizedContainerService.HintSize="642,165" sap2010:WorkflowViewState.IdRef="WriteTextFile_1">
+    <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="\\thor\enterprisedata\imports\daily\penn_fiimp.csv" sap:VirtualizedContainerService.HintSize="852,167" sap2010:WorkflowViewState.IdRef="WriteTextFile_1">
       <ui:WriteTextFile.Text>
         <InArgument x:TypeArguments="x:String">
           <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">outCsv</CSharpValue>
         </InArgument>
       </ui:WriteTextFile.Text>
     </ui:WriteTextFile>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="642,173" sap2010:WorkflowViewState.IdRef="LogMessage_4">
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="852,175" sap2010:WorkflowViewState.IdRef="LogMessage_4">
       <ui:LogMessage.Message>
         <InArgument x:TypeArguments="x:Object">
           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_62">"Archiving after success"</CSharpValue>
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <umam:MoveEmailConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID2}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID3}" ManualEntryFolder="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolder="Inbox/Processing" BrowserFolderId="AAMkADljNGMwYmFhLTZmYWQtNDlmMC04YTNmLWNkNmUxM2VlOTRmYQAuAAAAAACflz30HmsTT5rJx9sm-CW1AQAGVHH2yFBcSozMGWuhPySFAAAAABrcAAA=" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Move Email" sap:VirtualizedContainerService.HintSize="642,272" sap2010:WorkflowViewState.IdRef="MoveEmailConnections_1" SelectionMode="Browse" UseConnectionService="True" UseSharedMailbox="False">
+    <umam:MoveEmailConnections ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" FolderIdBackup="{x:Reference __ReferenceID2}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID3}" ManualEntryFolder="{x:Null}" Result="{x:Null}" AuthScopesInvalid="False" BodyAsHtml="False" BrowserFolder="Inbox/Processing" BrowserFolderId="AAMkADljNGMwYmFhLTZmYWQtNDlmMC04YTNmLWNkNmUxM2VlOTRmYQAuAAAAAACflz30HmsTT5rJx9sm-CW1AQAGVHH2yFBcSozMGWuhPySFAAAAABrcAAA=" ConnectionId="b14e6c31-0051-4ed6-9948-3345c5b1c68d" DisplayName="Move Email" sap:VirtualizedContainerService.HintSize="852,276" sap2010:WorkflowViewState.IdRef="MoveEmailConnections_1" SelectionMode="Browse" UseConnectionService="True" UseSharedMailbox="False">
       <umam:MoveEmailConnections.Email>
         <InArgument x:TypeArguments="umm:Office365Message">
           <CSharpValue x:TypeArguments="umm:Office365Message" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">emailMessage</CSharpValue>
